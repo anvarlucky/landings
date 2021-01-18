@@ -3,7 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="34a87602-9e6b-4154-8b01-053c43ed5b3c" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -65,8 +64,8 @@
       <file leaf-file-name="web.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/routes/web.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="223">
-              <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+            <state relative-caret-position="646">
+              <caret line="36" column="51" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="51" />
             </state>
           </provider>
         </entry>
@@ -226,11 +225,11 @@
       <path value="$PROJECT_DIR$/vendor/laravelcollective/html" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-9" />
-    <option name="y" value="-9" />
-    <option name="width" value="1938" />
-    <option name="height" value="1048" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-2568" />
+    <option name="y" value="-8" />
+    <option name="width" value="2576" />
+    <option name="height" value="1416" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -348,15 +347,15 @@
       <workItem from="1605547680445" duration="2603000" />
       <workItem from="1605676793010" duration="595000" />
       <workItem from="1608552283809" duration="2917000" />
-      <workItem from="1609127101580" duration="10160000" />
+      <workItem from="1609127101580" duration="11663000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28694000" />
+    <option name="totallyTimeSpent" value="30197000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-7" y="-7" width="1550" height="838" extended-state="7" />
+    <frame x="-2568" y="-8" width="2576" height="1416" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -364,9 +363,9 @@
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" order="7" weight="0.32988048" />
-      <window_info anchor="bottom" id="Terminal" order="7" sideWeight="0.49960256" weight="0.18804781" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="7" sideWeight="0.49960256" visible="true" weight="0.18804781" />
       <window_info anchor="right" id="Remote Host" order="3" weight="0.3298887" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.23892617" />
+      <window_info content_ui="combo" id="Project" order="0" sideWeight="0.49940547" visible="true" weight="0.14149444" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" sideWeight="0.50059456" side_tool="true" weight="0.14944357" />
@@ -707,8 +706,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/routes/web.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="223">
-          <caret line="33" column="6" selection-start-line="33" selection-start-column="6" selection-end-line="33" selection-end-column="6" />
+        <state relative-caret-position="646">
+          <caret line="36" column="51" selection-start-line="36" selection-start-column="44" selection-end-line="36" selection-end-column="51" />
         </state>
       </provider>
     </entry>
