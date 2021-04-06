@@ -1,7 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
-
+use App\Http\Controllers\IndexController;
+use App\Http\Controllers\PageController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -16,8 +17,8 @@ use Illuminate\Support\Facades\Route;
 //Route gruppa sozdat qilib olamiz
 
 Route::group(['middleware' => 'web'], function(){
-    Route::match(['get', 'post'],'/','IndexController@execute')->name('home');
-    Route::get('/page/{alias}','PageController@execute')->name('page');
+    Route::match(['get', 'post'],'/',[IndexController::class,'execute'])->name('home');
+    Route::get('/page/{alias}',[PageController::class,'execute'])->name('page');
     Route::auth();
 });
 
@@ -45,3 +46,6 @@ Route::group(['prefix'=>'admin','middleware' => 'auth'], function (){
         Route::match(['get', 'post','delete'],'/edit/{services}','ServiceEditController@execute')->name('servicesEdit');
     });
 });
+Auth::routes();
+
+Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
