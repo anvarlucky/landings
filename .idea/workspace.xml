@@ -1,68 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="acba3034-70ba-4af7-bcd5-b7311f6f9593" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/animation.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/font-awesome.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/favicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.eot" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/about-img.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/client_logo1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/client_logo2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/client_logo3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/client_logo4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/client_logo5.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/main_device_image.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/portfolio_pic8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team_pic1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team_pic2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/team_pic3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/img/twitter_bird.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/custom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/html5element.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-1.11.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery-scrolltofixed.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.easing.1.3.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.isotope.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/jquery.nav.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/respond-1.1.0.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/public/assets/js/wow.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/layouts/site.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/content.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/content_page.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/email.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/header.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/index.blade.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/resources/views/site/page.blade.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/LandingByMe.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/LandingByMe.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/IndexController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/js/bootstrap.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/bootstrap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/webpack.mix.js" beforeDir="false" afterPath="$PROJECT_DIR$/webpack.mix.js" afterDir="false" />
-    </list>
+    <list default="true" id="acba3034-70ba-4af7-bcd5-b7311f6f9593" name="Default" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -86,6 +25,24 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
+    <favorite-branches>
+      <branch-storage>
+        <map>
+          <entry type="LOCAL">
+            <value>
+              <list>
+                <branch-info repo="$PROJECT_DIR$" source="anvar" />
+              </list>
+            </value>
+          </entry>
+        </map>
+      </branch-storage>
+    </favorite-branches>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER">
@@ -212,7 +169,7 @@
       <path value="$PROJECT_DIR$/vendor/sebastian/comparator" />
     </include_path>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-2568" />
     <option name="y" value="-8" />
     <option name="width" value="2576" />
@@ -285,16 +242,15 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1617702272685</updated>
-      <workItem from="1617702274185" duration="370000" />
+      <workItem from="1617702274185" duration="612000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="370000" />
+    <option name="totallyTimeSpent" value="612000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-2568" y="-8" width="2576" height="1416" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
@@ -302,7 +258,7 @@
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Version Control" weight="0.32978722" />
       <window_info id="npm" side_tool="true" />
-      <window_info anchor="bottom" id="Terminal" weight="0.32978722" />
+      <window_info active="true" anchor="bottom" id="Terminal" visible="true" weight="0.32978722" />
       <window_info anchor="right" id="Remote Host" />
       <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.24980016" />
       <window_info anchor="bottom" id="Docker" show_stripe_button="false" />
@@ -321,6 +277,16 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
