@@ -25,7 +25,10 @@ Route::group(['middleware' => 'web'], function(){
 //adminka
 Route::group(['prefix'=>'admin','middleware' => 'auth'], function (){
    Route::get('/', function(){
-
+        if (view()->exists('admin.index')){
+            $data = ['title' => 'Панель Администратора'];
+            return view('admin.index',$data);
+        }
    });
 
    Route::group(['prefix'=>'pages'], function (){
