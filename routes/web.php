@@ -32,7 +32,7 @@ Route::group(['prefix'=>'admin','middleware' => 'auth'], function (){
    });
 
    Route::group(['prefix'=>'pages'], function (){
-      Route::get('/','PageController@execute')->name('pages');
+      Route::get('/','PagesController@execute')->name('pages');
        Route::match(['get', 'post'],'/add','PageAddController@execute')->name('pagesAdd');
        Route::match(['get', 'post','delete'],'/edit/{page}','PageEditController@execute')->name('pagesEdit');
    });
