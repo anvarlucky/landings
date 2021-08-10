@@ -8,7 +8,6 @@ use Illuminate\Http\Request;
 class PagesController extends Controller
 {
     public function execute(){
-        dd('sdsd');
         if(view()->exists('admin.pages')){
             $pages = Page::all();
             $data = [
