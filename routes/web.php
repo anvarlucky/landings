@@ -3,6 +3,8 @@
 use Illuminate\Support\Facades\Route;
 use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PageController;
+use App\Http\Controllers\PagesController;
+use App\Http\Controllers\PagesAddController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -25,12 +27,15 @@ Route::group(['middleware' => 'web'], function(){
 //adminka
 Route::group(['prefix'=>'admin','middleware' => 'auth'], function (){
    Route::get('/', function(){
-
+        if (view()->exists('admin.index')){
+            $data = ['title' => 'Панель Администратора'];
+            return view('admin.index',$data);
+        }
    });
 
    Route::group(['prefix'=>'pages'], function (){
-      Route::get('/','PageController@execute')->name('pages');
-       Route::match(['get', 'post'],'/add','PageAddController@execute')->name('pagesAdd');
+      Route::get('/',[PagesController::class,'execute'])->name('pages');
+       Route::match(['get', 'post'],'/add',[PagesAddController::class,'execute'])->name('pageAdd');
        Route::match(['get', 'post','delete'],'/edit/{page}','PageEditController@execute')->name('pagesEdit');
    });
 
