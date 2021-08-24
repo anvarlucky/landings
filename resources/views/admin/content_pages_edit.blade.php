@@ -22,7 +22,7 @@
     <div class="form-group">
         {!! Form::label('old_images', 'Izobrojenie:',['class' => 'col-xs-2 control-label']) !!}
         <div class="col-xs-offset-2 col-xs-10">
-            {!! Html::image('assets/img'.$data['images'],'',['class'=>'img-circle img-responsive', 'width' => '30']) !!}
+            {!! Html::image('assets/img/'.$data['images'],'',['class'=>'img-circle img-responsive', 'width' => '100']) !!}
             {!! Form::hidden('old_images', $data['images']) !!} {{-- Oldingi rasm nomi chiqib turishi uchun agar rasm ozgarmasa serverda obratniy turish uchun --}}
         </div>
     </div>

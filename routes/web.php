@@ -5,6 +5,7 @@ use App\Http\Controllers\IndexController;
 use App\Http\Controllers\PageController;
 use App\Http\Controllers\PagesController;
 use App\Http\Controllers\PagesAddController;
+use App\Http\Controllers\PagesEditController;
 /*
 |--------------------------------------------------------------------------
 | Web Routes
@@ -36,7 +37,7 @@ Route::group(['prefix'=>'admin','middleware' => 'auth'], function (){
    Route::group(['prefix'=>'pages'], function (){
       Route::get('/',[PagesController::class,'execute'])->name('pages');
        Route::match(['get', 'post'],'/add',[PagesAddController::class,'execute'])->name('pageAdd');
-       Route::match(['get', 'post','delete'],'/edit/{page}','PageEditController@execute')->name('pagesEdit');
+       Route::match(['get', 'post','delete'],'/edit/{page}',[PagesEditController::class,'execute'])->name('pagesEdit');
    });
 
     Route::group(['prefix'=>'portfolios'], function (){
